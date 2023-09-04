@@ -1,6 +1,4 @@
-
 # Create the Service principal
-
 
  az ad sp create-for-rbac -n "api://<spName>" --role owner --scopes subscriptions/<subscriptionId>/resourceGroups/<resourceGroup>
 
